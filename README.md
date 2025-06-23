@@ -17,5 +17,10 @@ I realised that this wouldn't be consider a good project as there is no such new
 ![s3](https://github.com/user-attachments/assets/d36a2879-220d-4956-8b2c-578cf798397c)
 Time Spent - 5hr (till 2 am June22)
 
-
-
+## June 22:- Used ESP32 and created the PCB
+After knowing that this would be a very limited project I switched to ESP32 as my MC to take the project to next level. This time I had to make things perfect so I started with wokring in KiCad but then I realised my graphics card is broken so I had to switch to easy eda I continued in easy eda along with finding the accutual components to not make it everything SMD I want to create everything by myself. Integrated buzzer, disply, 15 rgb, a few btn and a cell with tp4056. Had to redo the circuit twice due to that KiCAD!!! but succesfully created the schematic and got it reviewed by some hackclubbers on slack and took there suggestions. arranged everything in the pcb and the challenging part was to get the accurate dxf file as in easy eda you cant scale it so had to switch to fusion to edit the dxf then imported it fitted everything in and then completed the routing. after sharing on slack I got some suggestions and motivation to push this project further, im too tired now so ill work on this tommorow. ( succesfully completed the weekend ) 
+![sch](https://github.com/user-attachments/assets/8bb6bb81-f036-46d9-9304-c3f311a17adf)
+![25](https://github.com/user-attachments/assets/69a10142-64d8-4142-841f-e84a59581213)
+![24](https://github.com/user-attachments/assets/8537128c-d191-4751-9ba3-cf4eaad58f9a)
+![23](https://github.com/user-attachments/assets/5c4b09ea-decf-4ab1-8955-244fe0c27121)
+Time Spent - 6 Hr
