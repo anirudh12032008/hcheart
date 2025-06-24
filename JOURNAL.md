@@ -31,3 +31,4 @@ Replaced the OLED with a bigger one, used 4 push buttons instead of one. added a
 ![243](https://github.com/user-attachments/assets/ac164056-b8dd-4c51-b6ff-d62275bec2cb)
 ![242](https://github.com/user-attachments/assets/94a7cc08-ec70-4921-8a8a-6f83a15ca59f)
 ![241](https://github.com/user-attachments/assets/531e148d-b078-4bd2-af99-fcffcdbe0a41)
+Time Spent - 4.5 Hr
