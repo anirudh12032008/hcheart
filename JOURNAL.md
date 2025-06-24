@@ -24,3 +24,10 @@ After knowing that this would be a very limited project I switched to ESP32 as m
 ![24](https://github.com/user-attachments/assets/8537128c-d191-4751-9ba3-cf4eaad58f9a)
 ![23](https://github.com/user-attachments/assets/5c4b09ea-decf-4ab1-8955-244fe0c27121)
 Time Spent - 6 Hr
+
+
+## June 24:- Redesigned the PCB
+Replaced the OLED with a bigger one, used 4 push buttons instead of one. added a few little things like holes and also using some silk art, designed the whole PCB so that It could fit in a custom case. Researched on the components that have to be used. Shrinked the size of the PCB so re fitted everything in it. Tommorow ill start working on a 3d case to make this project mor cool
+![243](https://github.com/user-attachments/assets/ac164056-b8dd-4c51-b6ff-d62275bec2cb)
+![242](https://github.com/user-attachments/assets/94a7cc08-ec70-4921-8a8a-6f83a15ca59f)
+![241](https://github.com/user-attachments/assets/531e148d-b078-4bd2-af99-fcffcdbe0a41)
