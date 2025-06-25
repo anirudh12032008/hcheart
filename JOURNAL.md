@@ -31,4 +31,14 @@ Replaced the OLED with a bigger one, used 4 push buttons instead of one. added a
 ![243](https://github.com/user-attachments/assets/ac164056-b8dd-4c51-b6ff-d62275bec2cb)
 ![242](https://github.com/user-attachments/assets/94a7cc08-ec70-4921-8a8a-6f83a15ca59f)
 ![241](https://github.com/user-attachments/assets/531e148d-b078-4bd2-af99-fcffcdbe0a41)
+
 Time Spent - 4.5 Hr
+
+## June 25: Created the 3D case and firmware
+So I locked in today because I wanted to complete the project and submit it for the design contest, the 3D Case designing was a bit challenging as I had to make sure that everything was in place and the buttons were rechable and there were proper holes for buzzer oled charging esp32. Then I started working on the firmware to quickly draft a basic firware to test the hardwares.![v1 v4](https://github.com/user-attachments/assets/086d91b2-cac3-47ac-9e0b-2a6f8ce1170d)
+![2](https://github.com/user-attachments/assets/01150ef7-b8d3-400b-93f0-c3e2edf8c441)
+![3](https://github.com/user-attachments/assets/4ca8422f-5c8e-4a9c-935e-1169d11b282e)
+![5](https://github.com/user-attachments/assets/2fe3555d-dfeb-4996-b5f8-f589979cb588)
+![6](https://github.com/user-attachments/assets/8c318ebd-9aea-4dde-b524-f4493dc0100c)
+
+Time Spent - 7Hr
