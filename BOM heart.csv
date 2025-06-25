@@ -1,0 +1,15 @@
+NAME,Quantity,PRICE(INR),PRICE(USD),LINK
+PCB,5,1500,17.24137931,Estimate Price
+Case,2,870,10,Printing Legion
+Display,3,660,7.586206897,https://ebhoot.in/shop-2/display-devices/1-3-inch-i2c-iic-4-pin-oled-display-module-with-vcc-gnd-blue/
+ESP32,3,960,11.03448276,https://ebhoot.in/shop-2/esp-wifi-boards/esp32-development-board-type-c-usb-ch340c-wifi-bluetooth-ultra-low-power-dual-core/
+TP4056,3,48,0.5517241379,https://ebhoot.in/shop-2/electronics-modules/bms-module-battery-charging-module/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/
+Toggle Switch,3,24,0.275862069,https://www.importdukan.com/ss12d10-3pin-5mm-straight-feet-toggle-switch?search=tactile&description=true&page=2
+Push Switch,15,18,0.2068965517,https://ebhoot.in/shop-2/electronics-components/switch-push-button/2pin-round-pushbutton-spst-straight-tactile-micro-switch-through-hole/
+RGB LED,50,150,1.724137931,https://ebhoot.in/shop-2/electronics-components/led/5mm-rgb-led-common-cathode-4-pin/
+Buzzer,3,30,0.3448275862,
+Resistor,,200,2.298850575,
+Misc. ,,500,5.747126437,
+Tax,,250,2.873563218,
+Battery And Holder,3,240,2.75862069,
+Total,,5450,62.64367816,
