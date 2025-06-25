@@ -10,6 +10,7 @@ Im currently in high school and going to college next year, and I wanted to crea
 ![3](https://github.com/user-attachments/assets/8a9c8abd-1311-4ee4-b589-a51a01bd4fac)
 ![5](https://github.com/user-attachments/assets/76b9c489-6e55-4e15-8703-32920230487f)
 ![6](https://github.com/user-attachments/assets/832a7498-ae0c-4c64-8c59-afeb8fb19c6c)
+![schem](https://github.com/user-attachments/assets/55c4636e-6552-4335-bc2f-5d9e2fb2ceb8)
 
 ![243](https://github.com/user-attachments/assets/a360486e-8781-4719-a2b3-9fce091fb3d8)
 ![242](https://github.com/user-attachments/assets/0e2dce12-bc77-426c-9ac6-00d246b25551)
