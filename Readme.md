@@ -22,7 +22,7 @@ Im currently in high school and going to college next year, and I wanted to crea
 
 | Component           | Quantity | Cost (INR) | Cost (USD) |
 |---------------------|----------|------------|------------|
-| PCB                 | 5        | ₹1500      | $17.24     |
+| PCB                 | 5        | ₹3032      | $35.15     |
 | Case                | 2        | ₹870       | $10.00     |
 | Display             | 3        | ₹660       | $7.59      |
 | ESP32               | 3        | ₹960       | $11.03     |
@@ -35,7 +35,7 @@ Im currently in high school and going to college next year, and I wanted to crea
 | Misc.               | –        | ₹500       | $5.75      |
 | Tax                 | –        | ₹250       | $2.87      |
 | Battery And Holder  | 3        | ₹240       | $2.76      |
-| Total               | –        | ₹5450      | $62.64     |
+| Total               | –        | ₹5450      | $80.55     |
 
 ### Why 3?
 As the main objective of thisproject is to connect friends and people I need atleast 3 to implement this idea and actually make it useful. The PCB has min 5 and all other component make it less then $10 to create another. I hope you consider this 💖
