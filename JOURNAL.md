@@ -45,3 +45,38 @@ So I locked in today because I wanted to complete the project and submit it for 
 ![6](https://github.com/user-attachments/assets/8c318ebd-9aea-4dde-b524-f4493dc0100c)
 
 Time Spent - 7Hr
+
+
+## Day 6
+So, today I received my PCB and when I saw the PCB, the obvious flaw that I came to notice is that I was having the wrong MCU. I was having the ESP32 with 30 pins but in the PCB it was of 38 pins and I was really screwed up because I couldn't really return it as I just opened 3 packets of ESP32. So, yeah, I was in a really doubtful situation but I had only one choice. I first searched the internet to find any relevant resources but I couldn't find any. So, my next attempt was to manually fix this design flaw.
+So, now I begin fixing what I broke again. So, it was really a major design flaw that I used the 38 pins ESP32 while I bought the 30 pins ESP32. But, it's fine, not fine actually. But, I removed some of the pins from the ESP32 that I was having. Like, those were conflicting with maybe GND or VC. So, I just completely removed them up from the MCU itself. And, I got some red enamel copper wire. So, I used that to create the tracers and jumper wires. And yeah, after troubleshooting a lot of things, most of the things were going right. I had a few issues related to the VCP itself, but after some troubleshooting, it was quite good. So, the ESP did boot up.
+I found another major design flaw that the 5V was being used for almost all of the components instead of the 3.3V, which could fry up some of the things. Most of them were rated for 3.3V itself. So I cut the threads for the 5V and I attached the jumper wire to connect the 3V with and after troubleshooting it was good.
+The display module was fucked up while soldering it, because I needed to desolder it, as for the 5V problem I thought that it was not necessary. Maybe there was something wrong with the display only, so I began removing it. I thought that it would be as easy as it was inserting it up. But, after doing so, I realized it was completely messed, and I had no options.
+So, when I tried removing it, I kind of broke some of the shoulder pads, and it was all really messy, but still I got a bit lucky, because I used another display, and the joints were still not great, but after keeping it at a tilted angle, it worked, and if it works, we shouldn't disturb it and let it just work. So, yeah, currently it's working, the display is working, and I inserted all of the RGB LEDs, and twisted them up, and soldered it, and also I added the buttons there.
+![photo_6102760546496530534_w](https://github.com/user-attachments/assets/1c7ce306-ad3b-4cb2-911a-d5d5046fbd24)
+![photo_6102760546496530535_w](https://github.com/user-attachments/assets/3b6d32f7-01f2-4f78-bc90-f72f985006da)
+![photo_6102760546496530530_w](https://github.com/user-attachments/assets/dbf6e0ef-94df-48cb-910b-75ef8b589438)
+![photo_6102760546496530533_w](https://github.com/user-attachments/assets/7002a03d-617d-46b1-8817-261a682706b3)
+![photo_6102760546496530532_w](https://github.com/user-attachments/assets/711eef13-e6dc-4a2b-9fde-2f102e594051)
+time spent - 10hr
+
+## Day 7 
+Something big was really coming for me. As the RGB LED had really small spacing between their pads. And I wasn't using a fine tip for it. I tried using it but it wasn't working pretty well. So I just used normal tip for the soldering. And I messed up because they were really so close that if I apply solder to one, another one gets automatically connected. I used some desoldering flux but it wasn't really worth it and wasn't really working. Somehow I did manage it and with my multimeter coming to the rescue, I somehow managed it. And it was really a nice thing because when I was using the multimeter, I was seeing that the GND and VCC are getting connected. So it was really good.
+Okay, so I read the battery holder and the TP4056 module. And when I started up, it was booting up, and the buzzers were working, the display was working. Just the LEDs were having really, really low brightness. And when I started up, I knew that I needed to use a transistor instead of directly using GPIO pins to give them the current. But as the PCB is already done, I couldn't really modify it now, and I don't even have some 2N double NNN transistors. So, I don't really have a choice right now. And after the TP4056 is attached to it, I noticed that some of the SMD components on it were missing, because while soldering, it just got hot and got removed. So, tomorrow I would work on fixing that up.
+I began fixing TP-4056 module that was causing me trouble, but I again messed things up. Instead of putting a SMD component in there, another one got heated and got removed. So I needed to remove the whole module itself. And again, just like the OLED, I fixed the problem here itself. It was all a mess. I took help from my mother to hold things up because I wasn't having the helping hands. So somehow I managed to remove it and put a new one, and it works. It really works now
+![photo_6102760546496530529_w](https://github.com/user-attachments/assets/7c881a87-1170-4f3e-99a1-23644caf90e8)
+![photo_6102760546496530526_w](https://github.com/user-attachments/assets/220b7106-e63f-4782-b08a-bb113e9a5262)
+![photo_6102760546496530525_w](https://github.com/user-attachments/assets/a56ac993-d71d-489e-917a-f052f951a594)
+Time - 8hr
+
+## Day 8 
+I began working with the coding part to actually code the logic and create a web server and share the data along it. So I began writing the code and as it's Arduino IDE, it was taking way too much time to compile things up. But after wasting a lot of hours, I finally got it working. I have the web interface which would do the work.
+Currently with the web interface, I could send the data to display some text on the OLED screen, change the color of the LEDs, and use some of the RGB combinations to generate some custom colors, buzz the buzzer, and also know the status of all the current pressed buttons. So, it pretty much does everything. Other than that, it's just the firmware that may need to be updated, but currently it's fully functional and working, and as I intended, it has the ability to show the text and change colors, and everything works awesome. I added the switch also, because I messed up with the footprint of the switch itself, but it was manageable to put a small side switch there, so yeah, it's done.
+no images because its just code
+Time - 6hr
+
+## Day 9 Final BUILD
+no words only ton of working cutting and glue and yayyyyy
+![photo_6102760546496530522_w](https://github.com/user-attachments/assets/e31c785f-457e-4f75-b210-be727d6de781)
+![photo_6102760546496530521_w](https://github.com/user-attachments/assets/579edd04-e4be-4823-8ed9-b9967fddaed3)
+![photo_6102760546496530490_w](https://github.com/user-attachments/assets/8dc0144c-4a18-4b0c-b638-10b9b014c24f)
