@@ -17,6 +17,9 @@ Im currently in high school and going to college next year, and I wanted to crea
 ![241](https://github.com/user-attachments/assets/bff3eb98-df95-4ec5-b346-aed2f96d9064)
 ![4](https://github.com/user-attachments/assets/d479c3d9-2595-4767-9e08-a9aced09a202)
 
+# final build
+![photo_6102760546496530490_w](https://github.com/user-attachments/assets/1b2a77ca-613b-46a6-9434-4c804c421cb4)
+
 
 ## BOM
 
