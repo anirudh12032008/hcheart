@@ -5,7 +5,9 @@ Author - Anirudh Sahu
 Heart shaped pcb with esp32 as the main heart, 15 RGB led, a buzzer, a display, buttons, 1or 2 3.7V cell . Basically I would need atleast 2 PCBs. The esp32 will be connected to cloud with the help of a external serer hosted on cloud and both of the esp will pull code from it frequently. It would act as a messaging device when one can enter there msg and it would be displayed on both of the PCB, which makes it cool.
 
 Created at - 20 June 2025
-Total Time - 26hr
+Total design Time - 26hr
+total build time - 25 hr
+
 
 ## June 20 :- Led Chaser 
 Started with making a simple cd4017 and 555 timer led chaser thats in the shape of a heart
@@ -46,7 +48,8 @@ So I locked in today because I wanted to complete the project and submit it for 
 
 Time Spent - 7Hr
 
-
+# Build
+Time - 25 hr
 ## Day 6
 So, today I received my PCB and when I saw the PCB, the obvious flaw that I came to notice is that I was having the wrong MCU. I was having the ESP32 with 30 pins but in the PCB it was of 38 pins and I was really screwed up because I couldn't really return it as I just opened 3 packets of ESP32. So, yeah, I was in a really doubtful situation but I had only one choice. I first searched the internet to find any relevant resources but I couldn't find any. So, my next attempt was to manually fix this design flaw.
 So, now I begin fixing what I broke again. So, it was really a major design flaw that I used the 38 pins ESP32 while I bought the 30 pins ESP32. But, it's fine, not fine actually. But, I removed some of the pins from the ESP32 that I was having. Like, those were conflicting with maybe GND or VC. So, I just completely removed them up from the MCU itself. And, I got some red enamel copper wire. So, I used that to create the tracers and jumper wires. And yeah, after troubleshooting a lot of things, most of the things were going right. I had a few issues related to the VCP itself, but after some troubleshooting, it was quite good. So, the ESP did boot up.
@@ -58,7 +61,7 @@ So, when I tried removing it, I kind of broke some of the shoulder pads, and it 
 ![photo_6102760546496530530_w](https://github.com/user-attachments/assets/dbf6e0ef-94df-48cb-910b-75ef8b589438)
 ![photo_6102760546496530533_w](https://github.com/user-attachments/assets/7002a03d-617d-46b1-8817-261a682706b3)
 ![photo_6102760546496530532_w](https://github.com/user-attachments/assets/711eef13-e6dc-4a2b-9fde-2f102e594051)
-time spent - 10hr
+time spent - 9hr
 
 ## Day 7 
 Something big was really coming for me. As the RGB LED had really small spacing between their pads. And I wasn't using a fine tip for it. I tried using it but it wasn't working pretty well. So I just used normal tip for the soldering. And I messed up because they were really so close that if I apply solder to one, another one gets automatically connected. I used some desoldering flux but it wasn't really worth it and wasn't really working. Somehow I did manage it and with my multimeter coming to the rescue, I somehow managed it. And it was really a nice thing because when I was using the multimeter, I was seeing that the GND and VCC are getting connected. So it was really good.
@@ -67,7 +70,7 @@ I began fixing TP-4056 module that was causing me trouble, but I again messed th
 ![photo_6102760546496530529_w](https://github.com/user-attachments/assets/7c881a87-1170-4f3e-99a1-23644caf90e8)
 ![photo_6102760546496530526_w](https://github.com/user-attachments/assets/220b7106-e63f-4782-b08a-bb113e9a5262)
 ![photo_6102760546496530525_w](https://github.com/user-attachments/assets/a56ac993-d71d-489e-917a-f052f951a594)
-Time - 8hr
+Time - 7hr
 
 ## Day 8 
 I began working with the coding part to actually code the logic and create a web server and share the data along it. So I began writing the code and as it's Arduino IDE, it was taking way too much time to compile things up. But after wasting a lot of hours, I finally got it working. I have the web interface which would do the work.
@@ -75,8 +78,11 @@ Currently with the web interface, I could send the data to display some text on 
 no images because its just code
 Time - 6hr
 
-## Day 9 Final BUILD
+## Day 9 Final assembly
 no words only ton of working cutting and glue and yayyyyy
 ![photo_6102760546496530522_w](https://github.com/user-attachments/assets/e31c785f-457e-4f75-b210-be727d6de781)
 ![photo_6102760546496530521_w](https://github.com/user-attachments/assets/579edd04-e4be-4823-8ed9-b9967fddaed3)
 ![photo_6102760546496530490_w](https://github.com/user-attachments/assets/8dc0144c-4a18-4b0c-b638-10b9b014c24f)
+![photo_6120626171633846745_w](https://github.com/user-attachments/assets/f4d09a4f-c0d0-4585-b9d7-cb5137a1d192)
+![photo_6120626171633846746_w](https://github.com/user-attachments/assets/ab3122c9-1a47-4519-830b-82d7b728814d)
+time - 3hr
